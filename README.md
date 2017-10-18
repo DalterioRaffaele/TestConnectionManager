@@ -4,9 +4,11 @@ TestConnectionManager is a simple HTTP client for Swift.
 
 var testConnectionManager = TestConnectionManager()
 
+get example
+
 testConnectionManager.get("https://it.wikipedia.org/wiki/Hypertext_Transfer_Protocol", callback: {err, response, body in
   if( err == nil ) {
-    println(body)
+    print(body)
   }
 })
 
