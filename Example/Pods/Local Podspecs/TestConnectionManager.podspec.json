@@ -1,0 +1,22 @@
+{
+  "name": "TestConnectionManager",
+  "version": "0.1.0",
+  "summary": "A short description of TestConnectionManager.",
+  "description": "TODO: Add long description of the pod here.",
+  "homepage": "https://github.com/DalterioRaffaele/TestConnectionManager",
+  "license": {
+    "type": "MIT",
+    "file": "LICENSE"
+  },
+  "authors": {
+    "DalterioRaffaele": "r.dalterio@almaviva.it"
+  },
+  "source": {
+    "git": "https://github.com/DalterioRaffaele/TestConnectionManager.git",
+    "tag": "0.1.0"
+  },
+  "platforms": {
+    "ios": "8.0"
+  },
+  "source_files": "TestConnectionManager/Classes/**/*"
+}
