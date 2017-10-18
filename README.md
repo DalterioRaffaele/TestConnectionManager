@@ -1,5 +1,5 @@
 # TestConnectionManager
-
+```
 TestConnectionManager is a simple HTTP client for Swift.
 
 var testConnectionManager = TestConnectionManager()
@@ -11,7 +11,7 @@ testConnectionManager.get("https://it.wikipedia.org/wiki/Hypertext_Transfer_Prot
     print(body)
   }
 })
-
+```
 [![CI Status](http://img.shields.io/travis/DalterioRaffaele/TestConnectionManager.svg?style=flat)](https://travis-ci.org/DalterioRaffaele/TestConnectionManager)
 [![Version](https://img.shields.io/cocoapods/v/TestConnectionManager.svg?style=flat)](http://cocoapods.org/pods/TestConnectionManager)
 [![License](https://img.shields.io/cocoapods/l/TestConnectionManager.svg?style=flat)](http://cocoapods.org/pods/TestConnectionManager)
